@@ -19,7 +19,7 @@ pinMode(lc,INPUT_PULLUP);
 pinMode(rd,INPUT_PULLUP);
 attachInterrupt(0,latrig,CHANGE);
 attachInterrupt(1,rbtrig,CHANGE);
-Serial.println("START>>>");
+Serial.println("START>>>>>");
 }
 
 void loop() {
